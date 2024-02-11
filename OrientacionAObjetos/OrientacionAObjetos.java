@@ -9,5 +9,10 @@ public class OrientacionAObjetos {
         System.out.println(vehiculo1.toString());
         System.out.println(coche1.toString());
         System.out.println(coche1.arrancarMotor());
+        
+        /*Aqui os paso unos ejemplos de cosas que podeis hacer con estas clases, 
+        os recomiendo copiar el proyecto e intentar utilizar los metodos ya
+        construidos para que os vayan mostrando la información por parte, o crear 
+        nuevos objetos*/
     }
 }
