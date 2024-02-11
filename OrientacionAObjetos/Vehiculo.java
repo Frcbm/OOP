@@ -13,7 +13,7 @@ public class Vehiculo {
     Para hacerlo utilizamos la palabra reservada "this", como podeis ver,
     en el ámbito del constructor tendríamos 2 variables que tienen el mismo
     nombre, el atríbuto de clase y el parametro que pasamos a la función.
-    Utilizar this indica al programa qual debe tomar como el atríbuto y cual no,
+    Utilizar this indica al programa cual debe tomar como el atríbuto y cual no,
     basicamente para que el programa no se líe*/
     public Vehiculo(String marca, String modelo, int matricula){
         this.marca = marca;
@@ -26,7 +26,7 @@ public class Vehiculo {
     deben ser públicos y nos retornarán el valor del atributo en cuestión,
     por decirlo de un modo sencillo, no pedimos pedirle a la clase cual es el valor
     de un atributo privado, pero si le podemos pedir al getter que nos enseñe
-    el valor*/
+    el valor de dicho atributo*/
     public String getMarca(){
         return this.marca;
     }
