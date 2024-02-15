@@ -29,9 +29,7 @@ public class Coche extends Vehiculo {
     también el atributo que hemos incluido en la clase hija*/
     public String toString(){
         String a = "";
-        a += "Marca: " + getMarca() + "\n";
-        a += "Modelo: " + getModelo() + "\n";
-        a += "Matricula: " + getMatricula() + "\n";
+        a += super.toString() +"\n";
         a += "Numero de ruedas: " + getnRuedas();
         return a;
     }
